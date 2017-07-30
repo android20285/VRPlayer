@@ -3,9 +3,7 @@
 ![](http://ogzwf5uv0.bkt.clouddn.com/ic_app.png)             
 
 VRPlayer is a simple but powerful local VR video player
-
-![](http://ogzwf5uv0.bkt.clouddn.com/vrplayer1.png)         
-![](http://ogzwf5uv0.bkt.clouddn.com/vrplayer4.png)        
+       
 ![](http://ogzwf5uv0.bkt.clouddn.com/vrplayer2.png)           
 ![](http://ogzwf5uv0.bkt.clouddn.com/vrplayer3.png)    
 

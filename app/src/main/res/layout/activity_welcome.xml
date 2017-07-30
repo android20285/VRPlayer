@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    >
+
+    <carbon.widget.ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_app"
+        android:layout_centerInParent="true"
+        />
+
+    <com.wheat7.vrplayer.view.BulingBulingTextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Simple but Powerful Local VR Player"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="150dp"
+        android:layout_centerVertical="true"
+        android:textSize="22sp"/>
+</RelativeLayout>
+
+</layout>

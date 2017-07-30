@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable name="activity"
+            type="com.wheat7.vrplayer.activity.VRPlayerActivity" />
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <com.wheat7.vrplayer.vr.VRPlayerView
+        android:id="@+id/player"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+        <RelativeLayout
+            android:id="@+id/mediacontroller_title"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:background="@color/mediacontroller_bg"
+            android:visibility="gone">
+
+            <carbon.widget.ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:clickable="true"
+                android:onClick="@{()-> activity.onBackClick()}"
+                android:src="@drawable/ic_back" />
+        </RelativeLayout>
+
+    </FrameLayout>
+</layout>

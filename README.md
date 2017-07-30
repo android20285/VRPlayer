@@ -1,5 +1,7 @@
 # VRPlayer
 
+## [中文版点这里](https://github.com/wheat7/VRPlayer/blob/master/README_CN.md)
+
 ![](http://ogzwf5uv0.bkt.clouddn.com/ic_app.png)             
 
 VRPlayer is a simple but powerful local VR video player
@@ -23,7 +25,7 @@ VRPlayer is a simple but powerful local VR video player
 * Glide
 * StatusBarUtil
 
-## you will learn some from this project
+## You will learn some from this project
 * Databinding
 * Immersion StatusBar
 * A beautiful viedo player like Google VideoView and MediaController
